@@ -1,0 +1,45 @@
+ul.navbar{
+  list-style-type:none;
+  margin-bottom:20px;
+  padding:0;
+  overflow:hidden;
+  background-color:grey;
+  border-radius:5px;
+}
+li {
+  float:left;
+}
+li a {
+  display:block;
+  padding:20px 15px;
+  text-align:center;
+  text-decoration:none;
+  font-family:"Arial";
+  color:white;
+  font-size:20pt;
+  transition-duration:0.3s;
+}
+li a:hover:not(.active){
+  background-color:rgb(225,225,225);
+}
+.active
+{
+  background-color:DarkCyan;
+}
+body {
+  font-family:"Arial";
+  color:black;
+}
+#start
+{
+  background-color:#ee3e80;
+  font-family:"Arial";
+  padding:10px;
+  font-size:15pt;
+  border-radius:5px;
+  color:white;
+  padding
+}
+.listSpacing{
+  padding:10px;
+}

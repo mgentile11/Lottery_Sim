@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LotSim</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="LotterySim.css">
+    <!--<style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>-->
+  </head>
+  <header>
+    <ul class="navbar">
+      <li><a href="." class="active">Lottery Simulator</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </header>
+  <body>
+    <fieldset>
+    <legend>Lottery Information</legend>
+    <p>This simulator assumes 10 pairs of tickets available each 
+    night with <span id="entrants" contenteditable>50000</span> people entering each lottery. That means that you have 
+    a 1 in <span id="chance">5000</span> chance of winning. In order to have a 99% 
+    chance of winning the lottery at least 1 time, you must play ~<span id="percent">23000</span>
+    times.</p>
+    <p>
+      <button id="start">Start to enter Lottery</button>
+    </p>
+    
+    <p>You have played <span id="total">0</span> times.</p>
+    
+    <p id="results">
+  
+    </p>
+    </fieldset>
+  </body>
+</html>
